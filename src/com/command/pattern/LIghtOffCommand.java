@@ -1,11 +1,11 @@
 package com.command.pattern;
 
-public class LIghtOffCommand implements Command{
+public class LightOffCommand implements Command{
 	
 	Light light;
 	
 	//Constructor.
-	public LIghtOffCommand(Light light) {
+	public LightOffCommand(Light light) {
 		this.light = light;
 	}
 
